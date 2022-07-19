@@ -1,17 +1,9 @@
-h3{
-    color: violet;
-    font-size:30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.btn{
-    background-color: grey;
-    color: red;
-    font-size: larger;
-    border-radius:3px ;
-    border-color: black;
-}
-h2{
-    color: brown;
-    font-style: italic;
-    font-size: 3rem;
-}
+@import"componentes/btn";
+@import"componentes/card";
+@import"componentes/col";
+@import"componentes/nav";
+@import"text/texto";
+@import"titulo/h1";
+@import"titulo/h2";
+@import"titulo/h3";
+@import"formulario/formularios";

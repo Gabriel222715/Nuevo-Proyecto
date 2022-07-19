@@ -1,0 +1,16 @@
+.btn{
+    background-color:white;
+    color: red;
+    font-size: larger;
+    border-radius:3px ;
+    border-color: black;
+    &:hover{
+        background-color: red;
+        color: white;
+    }
+}
+.btn{
+    background-color: rgb(6, 143, 6);
+    color: white;
+    font-weight: 700;
+    }
