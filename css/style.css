@@ -26,39 +26,72 @@
   justify-content: flex-start; }
 
 .nav-item {
-  background-color: #eff16e;
+  background-color: violet;
   color: black;
-  font-size: large; }
+  font-size: large;
+  font-weight: 700; }
+
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+.footer {
+  margin-top: auto; }
 
 .texto {
   text-align: center;
-  line-height: 1rem;
-  font-size: 1em; }
+  line-height: 1.4rem;
+  font-size: 1em;
+  max-width: max-content; }
 
 h1 {
   text-align: center;
-  font-weight: 700;
+  font-size: 500%;
   color: red;
-  font-style: initial; }
+  font-style: initial;
+  text-shadow: orangered 0.1em 0.1em 0.2em; }
 
 h2 {
-  text-align: center;
-  font-weight: 600;
-  color: #ff00d4; }
-
-h2 {
-  color: brown;
+  color: yellow;
+  text-shadow: black 0.1em 0.1em 0.2em;
   font-style: italic;
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center; }
+
+.empresa {
+  color: #ec1aec;
+  font-size: 3rem;
+  font-weight: 700; }
 
 h3 {
-  color: #b919b9;
+  color: orangered;
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
-  .formularios{
-    background-color: papayawhip;
-    color:blue;
-    font-style: oblique;
-    font-size:15px;
-  }
+.precios {
+  color: #530253;
+  font-size: 32px;
+  font-weight: 700; }
+
+.descuentos {
+  color: #07b407;
+  font-weight: 500; }
+
+.formularios {
+  background-color: papayawhip;
+  color: blue;
+  font-style: oblique;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.c-primario {
+  color: #117fdf; }
+
+.c-secundario {
+  color: #da17af; }

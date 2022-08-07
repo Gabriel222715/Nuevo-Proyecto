@@ -2,8 +2,20 @@
 @import"componentes/card";
 @import"componentes/col";
 @import"componentes/nav";
-@import"text/texto";
-@import"titulo/h1";
-@import"titulo/h2";
-@import"titulo/h3";
+@import"componentes/body";
+@import"componentes/footer";
+@import"tipografia/texto";
+@import"tipografia/h1";
+@import"tipografia/h2";
+@import"tipografia/h3";
+@import"tipografia/precios";
 @import"formulario/formularios";
+$color-primario: #117fdf;
+$color-secundario: #da17af;
+
+.c-primario{
+    color:$color-primario;
+}
+.c-secundario{
+    color:$color-secundario;
+}
